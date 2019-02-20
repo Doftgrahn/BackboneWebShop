@@ -1,0 +1,33 @@
+.buttonElement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  min-height:80%;
+  border-radius: 20px;
+  background-color: #cea837;
+  width:20%;
+  margin:0 auto;
+  margin-top:40px;
+
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin:0 auto; */
+  margin:30px;
+
+}
+
+#trueBox {
+  height:30px;
+  width:30px;
+}
+#falseBox {
+  height:30px;
+  width:30px;
+}

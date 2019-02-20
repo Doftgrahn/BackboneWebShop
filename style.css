@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  font-size: 23px;
+
+}
+
+
+body {
+  margin: 0;
+  background-color: #FFDB95
+}
+
+h1 {
+    color: #99583D;
+  font-size: 8vh;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 40px;
+}
+
+p {
+  font-size: 2vh;
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: 5px solid #fa9d09;
+  width: 80%;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+.wrapper {
+  box-shadow: 10px 10px black;
+  min-height: 400px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* align-items:   flex-start; */
+  justify-content: space-between;
+  background-color: #E85F29;
+  border-radius: 20px;
+}
+
+
+.animalCards {
+  display: flex;
+flex-wrap: wrap;
+  box-shadow: 5px 5px black;
+  margin: 100px;
+  min-height: 400px;
+  min-width: 80%;
+  border: 5px solid #fa9d09;
+  border-radius: 20px;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_wrapper {
+  border-top: 5px solid #fa9d09;
+  width: 80%;
+  height: 80%;
+}
+
+.animalCards {
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  justify-content: center;
+}
