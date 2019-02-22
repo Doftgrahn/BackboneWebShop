@@ -70,6 +70,7 @@ let viewThemAnimals = animalsAlmostDone.map(animalModeintance =>
     model: animalModeintance
   })
 );
+
 function renderEverything() {
   $('.animalCards').html('');
   viewThemAnimals.forEach(view => {
