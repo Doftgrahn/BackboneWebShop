@@ -77,6 +77,8 @@ footer {
   border-top: 5px solid #fa9d09;
   width: 80%;
   height: 80%;
+  padding:30px;
+  margin:100px;
 }
 
 .animalCards {

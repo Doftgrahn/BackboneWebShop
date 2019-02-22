@@ -3,6 +3,9 @@
 }
 
 .hej {
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 3px;
   padding: 20px;
   font-family: arial;
   font-weight: 400;
